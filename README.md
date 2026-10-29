@@ -1,21 +1,89 @@
-# 💫 About Me:
-🔭 I’m currently working on RLTRADEUP<br>🌱 I’m currently learning C#<br>
-
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=badidu09&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=badidu09&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=badidu09&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=badidu09&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+<h1 align="center">Hey, I'm Vincent — aka <code>Badi</code> 👋</h1>
+<p align="center">
+  <b>FiveM developer</b> · <b>Epitech student</b> · full-stack when the server needs a website
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Epitech-2026%E2%80%932027-0079C1?style=flat-square" />
+  <img src="https://img.shields.io/badge/FiveM-Lua%20%7C%20NUI%20%7C%20Streaming-F40552?style=flat-square" />
+  <img src="https://img.shields.io/badge/status-open%20to%20freelance-2EA043?style=flat-square" />
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=badidu09&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 🎮 FiveM — what I build
+
+I design and ship resources for **competitive PvP servers** — from the core framework to the UI players see.
+
+| Project | What it is |
+|---|---|
+| **Rematch PvP** — core & gameplay | Modular PvP framework: central config, shared lib, custom MySQL driver + SQL migrations, players / bans / connection services, gameplay split into self-contained modules with their own NUI |
+| **14K PVP** — case-opening website | Next.js 16 + React 19 + Drizzle ORM site sharing its MariaDB with the game server: open cases, web vault, in-game withdrawal through a FiveM API |
+| **action_logger** | Standalone audit logger: validation, rate limiting, queued HTTP export to an external API — the API key never leaves the server |
+| **Custom maps** | Streamed maps & lobbies (`ydr` / `ytd` / `ybn` / `ymap`): a battle-royale skydrop platform 1 000 m above Cayo Perico, a sky arena… |
+| **Weapon packs & skins** | Addon weapons and animated skin variants (G36, K14, SCAR, Glock…) — themed seasonal drops |
+| **NUI** | Custom pause menus, loading screens, shops — HTML/CSS/JS replacing native GTA menus |
+
+### 🎓 Epitech — 2026 / 2027
+
+- 🧠 **Computer Vision & ML** — sudoku solver with OpenCV, experiment tracking with MLflow
+- 🛠️ Low-level & systems projects in **C / C++**, functional programming in **Haskell**
+- 🌐 Web & mobile projects in **TypeScript / React / React Native**
+
+### 🔭 Right now
+
+- Shipping **Rematch PvP** toward v1
+- Growing the **14K PVP** web ↔ game ecosystem
+- Getting deeper into **computer vision** for school
+
+---
+
+### 💻 Stack
+
+**Game / FiveM**
+<br/>
+<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+<img src="https://img.shields.io/badge/FiveM-F40552?style=for-the-badge&logo=fivem&logoColor=white" />
+<img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white" />
+
+**Web**
+<br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Drizzle-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" />
+
+**Data & infra**
+<br/>
+<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+
+**School**
+<br/>
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+<img src="https://img.shields.io/badge/Haskell-5E5086?style=for-the-badge&logo=haskell&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+
+---
+
+### 📊 Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=badidu09&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=badidu09&theme=transparent&hide_border=true&layout=compact&langs_count=8" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=badidu09&theme=transparent&hide_border=true" />
+</p>
+
+---
+
+<p align="center">
+  💬 Need a FiveM resource, a map or a website for your server? Reach out on Discord or open an issue.
+</p>
