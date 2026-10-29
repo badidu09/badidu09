@@ -136,7 +136,11 @@ I design and ship resources for **competitive PvP servers** — from the core fr
 
 <p align="center">
   💬 <b>Need a FiveM resource, a map or a website for your server?</b><br/>
-  Reach out on Discord or open an issue.
+  Reach out on Discord 👇
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Discord-badi______-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: badi___" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6E40C9,100:F40552&height=120&section=footer" width="100%" />
