@@ -1,5 +1,7 @@
 <img src="assets/hero.svg" width="100%" alt="Vincent Ballandi, game server and backend developer" />
 
+<a href="#fxaudit"><img src="assets/tile-fxaudit.svg" width="100%" alt="fxaudit: static analyzer for FiveM with 85 rules and no dependencies" /></a>
+
 <p align="center">
   <a href="#bpw-pvp"><img src="assets/tile-bpw.svg" width="65%" alt="BPW PvP: 31K+ lines, 29 modules, hand-written MySQL client" /></a>
   <a href="#envaudit"><img src="assets/tile-envaudit.svg" width="33.7%" alt="envaudit: zero-dependency CLI that keeps env files in sync" /></a>
@@ -18,6 +20,37 @@ I like understanding what sits under the abstraction, then building it myself wh
 <sub>↑ tap a card to jump to the project · ▸ open a section for the technical deep dive</sub>
 
 ---
+
+## fxaudit
+
+**A static analyzer for FiveM resources, written from scratch in pure Lua 5.4.** It finds undefined variables, global leaks, exploitable net events, backdoors, performance problems and memory leaks, and it never executes the code it scans. Founders can check a script they bought before it touches their server, and developers can run it in CI.
+
+[**→ view the repo**](https://github.com/badidu09/fxaudit) · open source (MIT)
+
+`85 rules` `all 7,000+ natives known` `no dependencies` `JSON and SARIF reports` `GitHub Action`
+
+<details open>
+<summary><b>▸ how the analyzer works</b></summary>
+<br/>
+
+```mermaid
+flowchart LR
+    A[".lua files<br/>fxmanifest.lua"] --> B["Lexer"]
+    B --> C["Recursive-descent parser<br/>AST + error recovery"]
+    C --> D["Scope resolution<br/>locals, globals, cross-file"]
+    D --> E["85 rules<br/>taint, logic, leaks, events"]
+    E --> F["Score per resource"]
+    E --> G["Console · JSON · SARIF"]
+```
+
+- **A language front end written by hand.** A lexer and a recursive-descent parser cover Lua 5.4 and the CfxLua dialect. After a syntax error, the parser resynchronizes on the next statement, so one run reports every error in a file instead of stopping at the first.
+- **Real scope analysis.** Every name is bound to its variable or marked global, with its reads and writes recorded. Globals are then resolved across files, per resource and per side, which catches a client native called on the server.
+- **Taint analysis for security.** Net event parameters are treated as attacker-controlled and followed through assignments and transparent calls such as `tonumber` or `gsub`, until they reach a sensitive sink like money, items or SQL, unless they were validated first.
+- **Designed around false positives.** Findings carry a confidence level, and the score weighs severity by confidence. It decays with the total penalty, so a hundred small remarks cannot outweigh a single critical issue.
+- **Safe by design.** fxaudit never runs what it scans, not even the manifest or its own config file.
+- **Honest about its limits.** The analysis stays inside one function, and escrowed files are reported rather than analyzed. The README explains why a good score does not prove a resource is safe.
+
+</details>
 
 ## bpw pvp
 
@@ -173,6 +206,7 @@ flowchart LR
 
 | Field | Concepts | Where |
 |---|---|---|
+| **Compilers & program analysis** | Lexing, recursive-descent parsing, ASTs, error recovery, scope resolution, taint analysis | fxaudit |
 | **Networking & protocols** | TCP, binary framing, handshakes, client-server authority | MySQL client, game server |
 | **Cryptography** | Hash-based challenge-response, RSA, CSPRNG | MySQL auth, draw system |
 | **Databases** | ACID transactions, row locking, idempotency, migrations | 14K PVP, BPW core |
