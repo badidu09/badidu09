@@ -181,7 +181,7 @@ flowchart LR
 | **Static analysis** | Pattern-based source scanning, secret detection, entropy heuristics | envaudit |
 | **Machine learning** | Object detection, classification, data leakage, augmentation, mAP, ablation studies | Sudoku Vision |
 | **Computer vision** | Homography, perspective transforms, contour analysis, interpolation | Sudoku Vision |
-| **Probability & statistics** | Probability laws, regression, hypothesis testing, confidence intervals | [Epitech math projects](https://github.com/badidu09/MATH_PROJECT) |
+| **Probability & statistics** | Probability laws, regression, hypothesis testing, confidence intervals | [Epitech math projects](https://github.com/badidu09/MATH_PROJECT): all validated, 16/20 average |
 
 ## tools
 
