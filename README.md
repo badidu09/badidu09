@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F40552,100:6E40C9&height=170&section=header&text=Vincent%20Ballandi&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Software%20engineering%20student%20at%20Epitech%20%C2%B7%20Game%20server%20%26%20backend%20developer&descSize=17&descAlignY=60" width="100%" />
+<img src="assets/banner.svg" width="100%" alt="Vincent Ballandi, game server and backend developer" />
 
 I like understanding what sits under the abstraction, then building it myself when that is the better call. My main playground is **multiplayer game servers on FiveM**: real players, real concurrency, and clients that cannot be trusted. At **Epitech**, I work on the theory side: computer vision, machine learning, probability and statistics.
 
@@ -13,6 +13,8 @@ I like understanding what sits under the abstraction, then building it myself wh
 ---
 
 ## ⚔️ BPW PvP — a competitive game server built from scratch
+
+<img src="assets/bpw.svg" width="100%" alt="bpw key facts" />
 
 Most FiveM servers assemble an existing framework (ESX, QBCore) with third-party scripts. I wrote my own instead, so that every layer is understood, and nothing runs that the game mode does not need.
 
@@ -48,9 +50,17 @@ The same architecture now also powers **Five Battle Royal**, a 5v5 battle royale
 
 ## 🎰 14K PVP — a virtual economy that has to stay correct
 
+<img src="assets/14k.svg" width="100%" alt="14k key facts" />
+
 A case-opening website whose database is shared with a live game server. It handles virtual currency, so race conditions and double spending are the real problems to solve.
 
-`Next.js 16` `React 19` `TypeScript` `Drizzle ORM` `MariaDB`
+<p>
+  <img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js 16" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=white" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Drizzle_ORM-4B7A00?style=flat-square&logo=drizzle&logoColor=white" alt="Drizzle ORM" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" alt="MariaDB" />
+</p>
 
 | Problem | Solution |
 |---|---|
@@ -64,7 +74,14 @@ A case-opening website whose database is shared with a live game server. It hand
 
 Team project with three people at Epitech. **My role: models and data**, meaning the datasets, YOLO training and experiment tracking in MLflow.
 
-`Python` `YOLO11` `OpenCV` `MLflow` `FastAPI` `Streamlit`
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square&logo=ultralytics&logoColor=white" alt="YOLO11" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+</p>
 
 ```mermaid
 flowchart LR
@@ -77,14 +94,7 @@ flowchart LR
     G --> H[Solution drawn<br/>on the photo]
 ```
 
-<table>
-  <tr>
-    <td align="center"><h3>97.6%</h3><sub>of sudokus solved end to end<br/>(40 of 41 unseen photos)</sub></td>
-    <td align="center"><h3>99.51%</h3><sub>accuracy on 405 real,<br/>hand-labelled cells</sub></td>
-    <td align="center"><h3>0%</h3><sub>wrong solutions returned<br/>on the test set</sub></td>
-    <td align="center"><h3>0.16 s</h3><sub>average processing time<br/>per photo</sub></td>
-  </tr>
-</table>
+<img src="assets/sudoku.svg" width="100%" alt="Sudoku Vision results" />
 
 **The method matters more than the score:**
 
@@ -94,6 +104,8 @@ flowchart LR
 - **Every pipeline stage measured.** An ablation study quantifies what each stage adds, taking the solve rate from 85.4% with OpenCV alone to 97.6% with the full pipeline.
 
 ## 📜 action_logger — an audit pipeline that survives outages
+
+<img src="assets/logger.svg" width="100%" alt="logger key facts" />
 
 A full logging platform for game servers, from the Lua resource to the web dashboard. Node / Express · SQLite · React · Discord OAuth2.
 
